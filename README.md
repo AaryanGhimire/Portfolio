@@ -1,11 +1,11 @@
-# 🌐 Personal Portfolio
+#  Personal Portfolio
 
 Welcome to my **Personal Portfolio Repository** 👋  
 This repository contains the source code and assets for my personal portfolio website, where I showcase my **skills, projects, and learning journey** as a developer.
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 Hi! I’m **Aaryan**, a student and aspiring software developer with a strong interest in:
 - Programming & Software Development
@@ -17,7 +17,7 @@ This portfolio is a reflection of my growth and progress as I learn and build pr
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5  
 - CSS3  
@@ -28,7 +28,7 @@ This portfolio is a reflection of my growth and progress as I learn and build pr
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Portfolio/
