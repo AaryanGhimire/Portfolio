@@ -3,64 +3,349 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aaryan | Portfolio</title>
+<title>Aaryan Ghimire — Systems &amp; Software</title>
+<meta name="description" content="Aaryan Ghimire — BE IT student and developer from Nepal, building software, backend systems, and exploring AI/ML, IoT, and automation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="grain" aria-hidden="true"></div>
 
-<header class="header">
-<h1>Aaryan Ghimire</h1>
-<p>Student | Aspiring Software Developer</p>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-reveal>
+  <div class="header-inner">
+
+    <nav class="primary-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+        <span class="nav-toggle-label">Menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#home"><span class="idx"></span>Home</a></li>
+        <li><a href="#about"><span class="idx"></span>About</a></li>
+        <li><a href="#work"><span class="idx"></span>Work</a></li>
+        <li><a href="#stack"><span class="idx"></span>Stack</a></li>
+        <li><a href="#journey"><span class="idx"></span>Journey</a></li>
+        <li><a href="#contact"><span class="idx"></span>Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-status">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text">OPEN TO WORK</span>
+    </div>
+  </div>
 </header>
 
+<main id="main">
 
-<nav class="nav">
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
+  <!-- ===================== HERO ===================== -->
+  <section id="home" class="hero" data-reveal>
+    
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Aaryan Ghimire — Kathmandu, Nepal</p>
 
+      <h1 class="hero-headline">
+        I build the parts
+        <br>
+        underneath the parts
+        <br>
+        you see.
+      </h1>
 
-<section id="about" class="section">
-<h2>About Me</h2>
-<p>
-I am a student passionate about programming and technology.
-Currently learning Python, JavaScript, and backend development.
-I enjoy building projects and improving my problem‑solving skills.
-</p>
-</section>
+      <p class="hero-sub">
+        Full stack developer studying Information Technology, six semesters in.
+        Currently working through Python, AI/ML, IoT, and automation — one system at a time.
+      </p>
 
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See what I've built</a>
+        <a href="https://github.com/AaryanGhimire" class="btn btn-ghost" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
 
-<section id="skills" class="section">
-<h2>Skills</h2>
-<ul class="skills-list">
-<li>HTML & CSS</li>
-<li>JavaScript</li>
-<li>Python</li>
-<li>PHP & MySQL</li>
-<li>Git & GitHub</li>
-</ul>
-</section>
+  <div class="hero-visual">
+  <div class="hero-photo">
+    <img src="aaryan.jpg" alt="Aaryan Ghimire">
+  </div>
 
-
-<section id="projects" class="section">
-<h2>Projects</h2>
-<div class="project">
-<h3>ReggBUzz</h3>
-<p>Sports & eSports registration system built using HTML, CSS, PHP, and MySQL.</p>
+  <div class="hero-diagram" aria-hidden="true">
+    <svg viewBox="0 0 400 400" class="diagram-svg">
+      <circle cx="200" cy="200" r="1.5" class="node node-core"></circle>
+      <g class="ring ring-1"><circle cx="200" cy="200" r="70" fill="none"></circle></g>
+      <g class="ring ring-2"><circle cx="200" cy="200" r="130" fill="none"></circle></g>
+      <g class="ring ring-3"><circle cx="200" cy="200" r="190" fill="none"></circle></g>
+      <circle cx="270" cy="200" r="3" class="node"></circle>
+      <circle cx="200" cy="70" r="3" class="node"></circle>
+      <circle cx="90" cy="270" r="3" class="node"></circle>
+      <circle cx="330" cy="130" r="3" class="node"></circle>
+      <line x1="200" y1="200" x2="270" y2="200" class="edge"></line>
+      <line x1="200" y1="200" x2="200" y2="70" class="edge"></line>
+      <line x1="200" y1="200" x2="90" y2="270" class="edge"></line>
+    </svg>
+  </div>
 </div>
 
-</section>
+    <button class="scroll-cue" data-scroll-target="#about" aria-label="Scroll to about section">
+      <span>scroll</span>
+      <span class="scroll-line" aria-hidden="true"></span>
+    </button>
+  </section>
 
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="about" data-reveal>
+    <div class="section-head">
+      <span class="section-index">N.01</span>
+      <h2 class="section-title">About</h2>
+    </div>
 
-<section id="contact" class="section">
-<h2>Contact</h2>
-<p>Email: <span id="email">Click to reveal</span></p>
-<button onclick="showEmail()">Show Email</button>
-</section>
+    <div class="about-grid">
+      <p class="about-lede">
+        I'm a BE IT student in Nepal, currently through my sixth semester. Most of what
+        I know, I've learned by building — starting with small, rough projects and working
+        toward systems with more moving parts.
+      </p>
 
+      <div class="about-body">
+        <p>
+          My interest sits closer to the backend than the interface: databases, data
+          flow, the logic that keeps something running when nobody's watching it work.
+          Python is where I spend most of my time outside coursework, usually pointed at
+          automation, small AI/ML experiments, or IoT ideas — projects built to understand
+          how something works, not to ship a product.
+        </p>
+        <p>
+          Robotics and automation interest me for the same reason: software that has to
+          deal with a messier, physical world instead of a clean API. I'm still early —
+          I haven't worked professionally yet — but I take the fundamentals seriously and
+          I'd rather understand a system properly than fake my way past it.
+        </p>
+      </div>
 
-<footer class="footer">
+      <dl class="about-facts">
+        <div class="fact">
+          <dt>Based in</dt>
+          <dd>Nepal</dd>
+        </div>
+        <div class="fact">
+          <dt>Studying</dt>
+          <dd>BE, Information Technology</dd>
+        </div>
+        <div class="fact">
+          <dt>Progress</dt>
+          <dd>6th semester completed</dd>
+        </div>
+        <div class="fact">
+          <dt>Focused on</dt>
+          <dd>Backend development</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===================== WORK ===================== -->
+  <section id="work" class="work" data-reveal>
+    <div class="section-head">
+      <span class="section-index">N.02</span>
+      <h2 class="section-title">Work</h2>
+    </div>
+
+    <!-- Featured: CrisisConnect -->
+    <article class="project project-featured">
+      <div class="project-media" aria-hidden="true">
+        <svg viewBox="0 0 600 400" class="project-diagram">
+          <rect x="40" y="60" width="140" height="70" class="pd-box"></rect>
+          <text x="110" y="99" class="pd-label" text-anchor="middle">SOS</text>
+          <rect x="230" y="60" width="140" height="70" class="pd-box"></rect>
+          <text x="300" y="99" class="pd-label" text-anchor="middle">SAFE ZONES</text>
+          <rect x="420" y="60" width="140" height="70" class="pd-box"></rect>
+          <text x="490" y="99" class="pd-label" text-anchor="middle">ALERTS</text>
+          <line x1="110" y1="130" x2="300" y2="230" class="pd-line"></line>
+          <line x1="300" y1="130" x2="300" y2="230" class="pd-line"></line>
+          <line x1="490" y1="130" x2="300" y2="230" class="pd-line"></line>
+          <rect x="200" y="230" width="200" height="80" class="pd-core"></rect>
+          <text x="300" y="265" class="pd-label" text-anchor="middle">FIRESTORE</text>
+          <text x="300" y="288" class="pd-sublabel" text-anchor="middle">emergency backend</text>
+          <line x1="300" y1="310" x2="300" y2="350" class="pd-line"></line>
+          <text x="300" y="372" class="pd-sublabel" text-anchor="middle">Flutter client</text>
+        </svg>
+      </div>
+
+      <div class="project-info">
+        <p class="project-kicker">Case study — university project</p>
+        <h3 class="project-title">CrisisConnect</h3>
+        <p class="project-desc">
+          A disaster and health-emergency response app, built for situations like
+          accidents and medical calamities where speed and reliability matter more than
+          polish. It handles SOS requests, safe-zone information, emergency contacts, and
+          location-based alerts.
+        </p>
+
+        <div class="project-role">
+          <span class="label">My role</span>
+          <span class="value">Full stack development</span>
+        </div>
+
+        <ul class="project-stack">
+          <li>Flutter / Dart</li>
+          <li>Firebase</li>
+          <li>Firestore</li>
+          <li>Riverpod</li>
+          <li>GoRouter</li>
+          <li>Hive</li>
+        </ul>
+
+        <ul class="project-features">
+          <li>Emergency alerts</li>
+          <li>Safe zones</li>
+          <li>SOS requests</li>
+          <li>Location-based routing</li>
+          <li>Emergency contacts</li>
+        </ul>
+
+        <a href="#" class="project-link">Source on GitHub ↗</a>
+      </div>
+    </article>
+
+    <!-- RegBuzz -->
+    <article class="project project-secondary">
+      <div class="project-info">
+        <p class="project-kicker">Early project</p>
+        <h3 class="project-title">RegBuzz</h3>
+        <p class="project-desc">
+          One of the first things I built while learning to write real software. It's
+          simple by design — the point wasn't the result, it was getting comfortable
+          shipping something end to end. It marks the start of a line that runs through
+          to learning backend development and building a website . A management system for sports registration . 
+        </p>
+        <a href="#" class="project-link">overview on GitHub ↗</a>
+      </div>
+      <div class="project-marker" aria-hidden="true">
+        <span>01</span>
+      </div>
+    </article>
+
+    <!-- Future placeholder -->
+    <article class="project project-placeholder">
+      <div class="placeholder-inner">
+        <span class="placeholder-tag">Project in development</span>
+        <p class="placeholder-text">Next system, currently being built.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ===================== STACK ===================== -->
+  <section id="stack" class="stack" data-reveal>
+    <div class="section-head">
+      <span class="section-index">N.03</span>
+      <h2 class="section-title">Stack</h2>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack-group">
+        <h3 class="stack-group-title">Build</h3>
+        <ul class="stack-list">
+          <li>Flutter</li>
+          <li>Dart</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+      <div class="stack-group">
+        <h3 class="stack-group-title">Backend / Data</h3>
+        <ul class="stack-list">
+          <li>MySQL</li>
+          <li>Firebase</li>
+          <li>Firestore</li>
+        </ul>
+      </div>
+
+      <div class="stack-group">
+        <h3 class="stack-group-title">Exploring</h3>
+        <ul class="stack-list stack-list-exploring">
+          <li>AI / ML</li>
+          <li>IoT</li>
+          <li>Automation</li>
+          <li>Robotics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== JOURNEY ===================== -->
+  <section id="journey" class="journey" data-reveal>
+    <div class="section-head">
+      <span class="section-index">N.04</span>
+      <h2 class="section-title">Journey</h2>
+    </div>
+
+    <ol class="journey-track">
+      <li class="journey-stage">
+        <span class="stage-tag">Early</span>
+        <h3 class="stage-title">RegBuzz</h3>
+        <p class="stage-desc">Learning the fundamentals — writing code that actually runs, end to end.</p>
+      </li>
+      <li class="journey-stage journey-stage-current">
+        <span class="stage-tag">Current</span>
+        <h3 class="stage-title">BE IT · CrisisConnect · Backend</h3>
+        <p class="stage-desc">Six semesters in, building CrisisConnect's backend and going deeper into Python.</p>
+      </li>
+      <li class="journey-stage">
+        <span class="stage-tag">Next</span>
+        <h3 class="stage-title">Internship · AI/ML · IoT · Automation</h3>
+        <p class="stage-desc">Looking for an internship, stronger projects, and more time in AI/ML, IoT, and automation.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="contact" data-reveal>
+    <div class="section-head">
+      <span class="section-index">N.05</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+
+    <div class="contact-inner">
+      <p class="contact-lede">
+        Building CrisisConnect taught me how much I still want to learn. If you're
+        working on something backend-heavy, or have an internship worth a conversation —
+        I'd like to hear about it.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">ghimireaaryan5@gmail.com</span>
+        </a>
+        <a href="https://github.com/AaryanGhimire" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/AaryanGhimire</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">https://www.linkedin.com/in/aaryan-ghimire-1a863a322/</span>
+        </a>
+        <span class="contact-link contact-link-static">
+          <span class="contact-label">Based in</span>
+          <span class="contact-value">Nepal</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Aaryan Ghimire — built with HTML, CSS, and JavaScript.</p>
+  <a href="#top" class="footer-top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
